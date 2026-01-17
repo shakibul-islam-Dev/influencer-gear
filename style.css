@@ -3,6 +3,7 @@
     padding: 0;
     list-style: none;
     text-decoration: none;
+    box-sizing: border-box;
 }
 /* global font size */
 .poppins-regular {
@@ -17,6 +18,7 @@ header{
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap:90px;
 }
 header .nav_bar{
   width: 100%;
@@ -48,5 +50,123 @@ header .nav_bar .content_area ul li{
   color: #3A3A3A;
 }
 header .nav_bar .content_area ul li .fa-magnifying-glass,.fa-cart-shopping{
-  font-size: 18PX;
+  font-size: 18PX; 
+}
+header .banner_part{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 130px;
+}
+header .banner_part .banner_text{
+  width: 582px;
+}
+header .banner_part .banner_text h1{
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 70px;
+  color: #3A3A3A;
+}
+header .banner_part .banner_text p{
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #3A3A3A;
+}
+header .banner_part .banner_text button{
+  cursor: pointer;
+  margin-top: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px 24px;
+  color: #FFFFFF;
+  border-radius: 41px;
+  border: none;
+  background-color: #E02C6D;
+}
+header .banner_part .banner_text button .fa-arrow-right{
+  margin-left: 8px;
+}
+header .banner_sponser{
+  padding: 35px 65px;
+}
+.banner_sponser ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 61px;
+}
+.card{
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.card .card_header h1{
+  font-size: 28px;
+  line-height: 70px;
+  font-weight: 600;
+  color:#3A3A3A;
+}
+.card_item{
+width: 100%;
+max-width: 1200px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card-items{
+  width: 329px;
+  height: 476px;
+  padding: 17px 15px 0 15px;
+  box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+
+}
+.card_item .card-items img{
+  width: 100%;
+}
+.card_item .card-items h2{
+  font-size: 28px;
+  line-height: 40px;
+}
+.card_item .card-items h3{
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 150%;
+  color:rgba(0, 0, 0, 0.87)
+}
+.card_item .card-items .rating{
+  margin-bottom: 10px;
+ height: 12px;
+ width: 12px;
+ color: orange;
+}
+.card_item .card-items .rating .rate_point{
+  margin-left: 5px;
+ font-size: 14px;
+ font-weight: 22px;
+ letter-spacing: 0.1px;
+ color: #5E6366;
+}
+.card .card_item .card-items p{
+  margin-top: 20px;
+ font-size: 14px;
+ font-weight: 143%;
+ letter-spacing: 1.8%;
+ color: #5E6366;
+}
+.card a{
+  position:absolute;
+  right: 380px;
+  bottom: -50px;
+  margin-top: 50px;
+  color: #E02C6D;
+}
+.card a i{
+ margin-left: 5px;
 }
