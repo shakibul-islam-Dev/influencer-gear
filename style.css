@@ -4,10 +4,49 @@
     list-style: none;
     text-decoration: none;
 }
-
-
+/* global font size */
 .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+/*  Coding Start */
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+header .nav_bar{
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 495px;
+  margin: 87px 120px 0 120px;
+}
+header .nav_bar .logo_area p{
+  font-size: 24px;
+  font-weight: bold;
+  color: #3A3A3A;
+ 
+}
+header .nav_bar .content_area ul{
+  display: flex;
+  align-items: center;
+  gap: 34px;
+
+
+}
+header .nav_bar .content_area ul li{
+  cursor: pointer;
+  font-size: 16PX;
+  font-weight: 600;
+  color: #3A3A3A;
+}
+header .nav_bar .content_area ul li .fa-magnifying-glass,.fa-cart-shopping{
+  font-size: 18PX;
 }
